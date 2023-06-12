@@ -130,7 +130,7 @@ threading_value = tk.IntVar()
 threading_checkbutton = tk.Checkbutton(root, text="Enable Threading (Max 50)", variable=threading_value)
 threading_checkbutton.pack()
 
-open_file_button = tk.Button(root, text="Open File", command=open_file)
+open_file_button = tk.Button(root, text="Open File Containing URLs", command=open_file)
 open_file_button.pack()
 
 root.mainloop()
